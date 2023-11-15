@@ -13,6 +13,7 @@
 		EF743DA62B05060E0023CF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF743DA42B05060E0023CF36 /* Main.storyboard */; };
 		EF743DA82B0506100023CF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF743DA72B0506100023CF36 /* Assets.xcassets */; };
 		EF743DAB2B0506100023CF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF743DA92B0506100023CF36 /* LaunchScreen.storyboard */; };
+		EF743DB32B05078F0023CF36 /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DB22B05078F0023CF36 /* PageContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF743DA72B0506100023CF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF743DAA2B0506100023CF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF743DAC2B0506100023CF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF743DB22B05078F0023CF36 /* PageContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF743DA72B0506100023CF36 /* Assets.xcassets */,
 				EF743DA92B0506100023CF36 /* LaunchScreen.storyboard */,
 				EF743DAC2B0506100023CF36 /* Info.plist */,
+				EF743DB22B05078F0023CF36 /* PageContentViewController.swift */,
 			);
 			path = ejercicio_pageview;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF743DA32B05060E0023CF36 /* ViewController.swift in Sources */,
+				EF743DB32B05078F0023CF36 /* PageContentViewController.swift in Sources */,
 				EF743D9F2B05060E0023CF36 /* AppDelegate.swift in Sources */,
 				EF743DA12B05060E0023CF36 /* SceneDelegate.swift in Sources */,
 			);
